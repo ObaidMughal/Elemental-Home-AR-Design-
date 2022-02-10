@@ -1,0 +1,443 @@
+{
+  materials: [
+    {
+      name: 'm_sofa_up',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_sofa_up_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_sofa_up_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'm_sofa_up_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'm_stiches',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_stiches_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_stiches_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'm_stiches_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'm_sofa_bottom',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_sofa_bottom_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_sofa_bottom_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'm_sofa_bottom_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'm_wood',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_wood_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_wood_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'm_wood_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'm_wooden_legs_metal',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_wooden_legs_metal_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_wooden_legs_metal_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'm_wooden_legs_metal_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/corner sofa/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_up_metallicRoughness.png',
+      name: 'm_sofa_up_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/m_sofa_up_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wood_metallicRoughness.png',
+      name: 'm_wood_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/m_wood_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_up_baseColor.jpeg',
+      name: 'm_sofa_up_baseColor',
+      pipeline_name: 'textures/m_sofa_up_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_up_normal.png',
+      name: 'm_sofa_up_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_sofa_up_normal.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_bottom_normal.png',
+      name: 'm_sofa_bottom_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_sofa_bottom_normal.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_stiches_metallicRoughness.png',
+      name: 'm_stiches_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/m_stiches_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_stiches_baseColor.jpeg',
+      name: 'm_stiches_baseColor',
+      pipeline_name: 'textures/m_stiches_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_bottom_metallicRoughness.png',
+      name: 'm_sofa_bottom_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/m_sofa_bottom_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_sofa_bottom_baseColor.jpeg',
+      name: 'm_sofa_bottom_baseColor',
+      pipeline_name: 'textures/m_sofa_bottom_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_stiches_normal.png',
+      name: 'm_stiches_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_stiches_normal.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wood_baseColor.jpeg',
+      name: 'm_wood_baseColor',
+      pipeline_name: 'textures/m_wood_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wood_normal.png',
+      name: 'm_wood_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_wood_normal.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wooden_legs_metal_baseColor.jpeg',
+      name: 'm_wooden_legs_metal_baseColor',
+      pipeline_name: 'textures/m_wooden_legs_metal_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wooden_legs_metal_normal.png',
+      name: 'm_wooden_legs_metal_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_wooden_legs_metal_normal.png',
+    },
+    {
+      file: 'sampledata/corner sofa\\textures\\m_wooden_legs_metal_metallicRoughness.png',
+      name: 'm_wooden_legs_metal_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/m_wooden_legs_metal_metallicRoughness.png',
+    },
+  ],
+  version: '0.54:2',
+}

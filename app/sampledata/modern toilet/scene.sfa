@@ -1,0 +1,104 @@
+{
+  materials: [
+    {
+      name: 'lambert1',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'lambert1_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'lambert1_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'lambert1_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/modern toilet/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.85880399999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/modern toilet\\textures\\lambert1_baseColor.png',
+      name: 'lambert1_baseColor',
+      pipeline_name: 'textures/lambert1_baseColor.png',
+    },
+    {
+      file: 'sampledata/modern toilet\\textures\\lambert1_metallicRoughness.png',
+      name: 'lambert1_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/lambert1_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/modern toilet\\textures\\lambert1_normal.png',
+      name: 'lambert1_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/lambert1_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

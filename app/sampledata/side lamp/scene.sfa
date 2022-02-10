@@ -1,0 +1,104 @@
+{
+  materials: [
+    {
+      name: 'Material.001',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Material.001_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Material.001_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Material.001_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/side lamp/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.022211000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/side lamp\\textures\\Material.001_baseColor.png',
+      name: 'Material.001_baseColor',
+      pipeline_name: 'textures/Material.001_baseColor.png',
+    },
+    {
+      file: 'sampledata/side lamp\\textures\\Material.001_metallicRoughness.png',
+      name: 'Material.001_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Material.001_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/side lamp\\textures\\Material.001_normal.png',
+      name: 'Material.001_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Material.001_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

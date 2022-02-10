@@ -1,0 +1,103 @@
+{
+  materials: [
+    {
+      name: '01___Default',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: '01___Default_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '01___Default_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: '01___Default_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/sofa/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/sofa\\textures\\01___Default_metallicRoughness.png',
+      name: '01___Default_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/01___Default_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/sofa\\textures\\01___Default_baseColor.jpeg',
+      name: '01___Default_baseColor',
+      pipeline_name: 'textures/01___Default_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/sofa\\textures\\01___Default_normal.png',
+      name: '01___Default_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/01___Default_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,266 @@
+{
+  materials: [
+    {
+      name: 'Stolik_1',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Stolik_1_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Stolik_1_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Stolik_1_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Napr',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Napr_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Napr_normal',
+        },
+        {
+          metallicFactor: 0.80000000000000004,
+        },
+        {
+          roughnessFactor: 0.20000000000000001,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Stolik_2',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Stolik_2_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Stolik_2_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Stolik_2_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/dressing/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.0006569999999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_1_baseColor.jpeg',
+      name: 'Stolik_1_baseColor',
+      pipeline_name: 'textures/Stolik_1_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_1_metallicRoughness.png',
+      name: 'Stolik_1_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Stolik_1_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_2_metallicRoughness.png',
+      name: 'Stolik_2_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Stolik_2_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_2_baseColor.jpeg',
+      name: 'Stolik_2_baseColor',
+      pipeline_name: 'textures/Stolik_2_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Napr_normal.png',
+      name: 'Napr_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Napr_normal.png',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_1_normal.jpeg',
+      name: 'Stolik_1_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Stolik_1_normal.jpeg',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Napr_baseColor.png',
+      name: 'Napr_baseColor',
+      pipeline_name: 'textures/Napr_baseColor.png',
+    },
+    {
+      file: 'sampledata/dressing\\textures\\Stolik_2_normal.jpeg',
+      name: 'Stolik_2_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Stolik_2_normal.jpeg',
+    },
+  ],
+  version: '0.54:2',
+}

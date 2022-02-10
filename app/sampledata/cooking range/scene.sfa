@@ -1,0 +1,256 @@
+{
+  materials: [
+    {
+      name: 'Retro',
+      parameters: [
+        {
+          baseColorFactor: null,
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: null,
+        },
+        {
+          roughnessFactor: null,
+        },
+        {
+          specularFactor: [
+            0.58708099999999996,
+            0.58708099999999996,
+            0.58708099999999996,
+          ],
+        },
+        {
+          glossinessFactor: 0.306593,
+        },
+        {
+          specularGlossiness: 'Retro_specularGlossiness',
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Vetri01',
+      parameters: [
+        {
+          baseColorFactor: null,
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: [
+            1,
+            1,
+            1,
+            0.46779700000000002,
+          ],
+        },
+        {
+          diffuseColor: 'Vetri01_diffuse',
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: null,
+        },
+        {
+          roughnessFactor: null,
+        },
+        {
+          specularFactor: [
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          glossinessFactor: 1,
+        },
+        {
+          specularGlossiness: 'Vetri01_specularGlossiness',
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Wolf_Cucina_Q1',
+      parameters: [
+        {
+          baseColorFactor: null,
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          diffuseColor: 'Wolf_Cucina_Q1_diffuse',
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: null,
+        },
+        {
+          roughnessFactor: null,
+        },
+        {
+          specularFactor: [
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          glossinessFactor: 1,
+        },
+        {
+          specularGlossiness: 'Wolf_Cucina_Q1_specularGlossiness',
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: 'Wolf_Cucina_Q1_occlusion',
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/cooking range/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.033050999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/cooking range\\textures\\Wolf_Cucina_Q1_occlusion.jpeg',
+      name: 'Wolf_Cucina_Q1_occlusion',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Wolf_Cucina_Q1_occlusion.jpeg',
+    },
+    {
+      file: 'sampledata/cooking range\\textures\\Retro_specularGlossiness.png',
+      name: 'Retro_specularGlossiness',
+      pipeline_name: 'textures/Retro_specularGlossiness.png',
+    },
+    {
+      file: 'sampledata/cooking range\\textures\\Vetri01_specularGlossiness.png',
+      name: 'Vetri01_specularGlossiness',
+      pipeline_name: 'textures/Vetri01_specularGlossiness.png',
+    },
+    {
+      file: 'sampledata/cooking range\\textures\\Vetri01_diffuse.jpeg',
+      name: 'Vetri01_diffuse',
+      pipeline_name: 'textures/Vetri01_diffuse.jpeg',
+    },
+    {
+      file: 'sampledata/cooking range\\textures\\Wolf_Cucina_Q1_diffuse.jpeg',
+      name: 'Wolf_Cucina_Q1_diffuse',
+      pipeline_name: 'textures/Wolf_Cucina_Q1_diffuse.jpeg',
+    },
+    {
+      file: 'sampledata/cooking range\\textures\\Wolf_Cucina_Q1_specularGlossiness.png',
+      name: 'Wolf_Cucina_Q1_specularGlossiness',
+      pipeline_name: 'textures/Wolf_Cucina_Q1_specularGlossiness.png',
+    },
+  ],
+  version: '0.54:2',
+}

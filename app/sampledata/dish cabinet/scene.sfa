@@ -1,0 +1,103 @@
+{
+  materials: [
+    {
+      name: 'Furniture_MAT',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Furniture_MAT_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Furniture_MAT_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Furniture_MAT_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/dish cabinet/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/dish cabinet\\textures\\Furniture_MAT_baseColor.png',
+      name: 'Furniture_MAT_baseColor',
+      pipeline_name: 'textures/Furniture_MAT_baseColor.png',
+    },
+    {
+      file: 'sampledata/dish cabinet\\textures\\Furniture_MAT_metallicRoughness.png',
+      name: 'Furniture_MAT_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Furniture_MAT_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dish cabinet\\textures\\Furniture_MAT_normal.png',
+      name: 'Furniture_MAT_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Furniture_MAT_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

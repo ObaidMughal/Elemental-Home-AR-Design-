@@ -1,0 +1,104 @@
+{
+  materials: [
+    {
+      name: 'Bin_M',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Bin_M_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Bin_M_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Bin_M_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/dust bin1/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.02367,
+  },
+  samplers: [
+    {
+      file: 'sampledata/dust bin1\\textures\\Bin_M_metallicRoughness.png',
+      name: 'Bin_M_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Bin_M_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dust bin1\\textures\\Bin_M_baseColor.jpeg',
+      name: 'Bin_M_baseColor',
+      pipeline_name: 'textures/Bin_M_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/dust bin1\\textures\\Bin_M_normal.jpeg',
+      name: 'Bin_M_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Bin_M_normal.jpeg',
+    },
+  ],
+  version: '0.54:2',
+}

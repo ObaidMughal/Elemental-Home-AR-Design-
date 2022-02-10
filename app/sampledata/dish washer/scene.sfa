@@ -1,0 +1,188 @@
+{
+  materials: [
+    {
+      name: 'Aparador_mat',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Aparador_mat_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Aparador_mat_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.17199999999999999,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Aparador_mat_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Aparador_bacha_mat',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Aparador_bacha_mat_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'Aparador_bacha_mat_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0.17199999999999999,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'Aparador_bacha_mat_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/dish washer/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_mat_baseColor.png',
+      name: 'Aparador_mat_baseColor',
+      pipeline_name: 'textures/Aparador_mat_baseColor.png',
+    },
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_mat_metallicRoughness.png',
+      name: 'Aparador_mat_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Aparador_mat_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_mat_normal.png',
+      name: 'Aparador_mat_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Aparador_mat_normal.png',
+    },
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_bacha_mat_baseColor.png',
+      name: 'Aparador_bacha_mat_baseColor',
+      pipeline_name: 'textures/Aparador_bacha_mat_baseColor.png',
+    },
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_bacha_mat_metallicRoughness.png',
+      name: 'Aparador_bacha_mat_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/Aparador_bacha_mat_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/dish washer\\textures\\Aparador_bacha_mat_normal.png',
+      name: 'Aparador_bacha_mat_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/Aparador_bacha_mat_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}

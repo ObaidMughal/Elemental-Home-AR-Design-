@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#000"
+    >
+
+    <item
+        android:id="@+id/bedRoom"
+        android:title="BedRoom"
+        android:icon="@drawable/bedicon"
+        app:cnb_backgroundColor="#F54C2A"
+        app:cnb_iconColor="#000"
+
+
+        />
+    <item
+        android:id="@+id/lounge"
+        android:title="Lounge"
+        android:icon="@drawable/ic_lounge"
+        app:cnb_backgroundColor="#F54C2A"
+        app:cnb_iconColor="#000"
+
+
+        />
+    <item
+        android:id="@+id/kitchen"
+        android:title="Kitchen"
+        android:icon="@drawable/ic_kitchen"
+        app:cnb_backgroundColor="#F54C2A"
+        app:cnb_iconColor="#000"
+
+
+        />
+    <item
+        android:id="@+id/bathroom"
+        android:title="BathRoom"
+        android:icon="@drawable/ic_bathroom"
+        app:cnb_backgroundColor="#F54C2A"
+        app:cnb_iconColor="#000"
+
+
+        />
+
+</menu>

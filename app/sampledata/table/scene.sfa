@@ -1,0 +1,103 @@
+{
+  materials: [
+    {
+      name: 'initialShadingGroup',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'initialShadingGroup_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'initialShadingGroup_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'initialShadingGroup_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/table/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/table\\textures\\initialShadingGroup_metallicRoughness.png',
+      name: 'initialShadingGroup_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/initialShadingGroup_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/table\\textures\\initialShadingGroup_baseColor.jpeg',
+      name: 'initialShadingGroup_baseColor',
+      pipeline_name: 'textures/initialShadingGroup_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/table\\textures\\initialShadingGroup_normal.png',
+      name: 'initialShadingGroup_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/initialShadingGroup_normal.png',
+    },
+  ],
+  version: '0.54:2',
+}
